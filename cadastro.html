@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+        <div class="cadastro">
+            <form action="">
+                <fieldset>
+                    <legend>Cadastro</legend>
+
+                    <div class="input-cadastro">
+                        <input type="text" name="nome" id="nome" class="input-user" placeholder="Nome" required>
+                        <span class="cadastro-input-border"></span>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="input-cadastro">
+                        <input type="text" name="sobrenome" id="sobrenome" class="input-user" placeholder="Sobrenome"
+                            required>
+                        <span class="cadastro-input-border"></span>
+                    </div>
+                    <br>
+                    <div class="input-cadastro">
+                        <p>Sexo:</p>
+                        <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                        <label for="masculino">masculino</label>
+
+                        <input type="radio" id="feminino" name="sexo" value="feminino" required>
+                        <label for="feminino">feminino</label>
+
+                        <input type="radio" id="outro" name="sexo" value="outro" required>
+                        <label for="masculino">outro</label>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="input-cadastro">
+                        <input type="email" name="e-mail" id="email" class="input-user" placeholder="E-mail" required>
+                        <span class="cadastro-input-border"></span>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="input-cadastro">
+                        <input type="password" name="senha" id="nome" class="input-user" placeholder="Senha" required>
+                        <span class="cadastro-input-border"></span>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="input-cadastro">
+                        <input type="password" name="confirmar-senha" id="confirm-senha" class="input-user"
+                            placeholder="Confirmar Senha" required>
+                        <span class="cadastro-input-border"></span>
+                    </div>
+                    <br>
+                    <br>
+                    <input onclick="alert('Cadastro realizado com sucesso!')" type="submit" name="submit"
+                        id="cadastrar">
+
+                </fieldset>
+            </form>
+        </div>
+</body>
+
+</html>
